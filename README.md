@@ -96,6 +96,7 @@ Now your camera should be working most probably!
 | Cachy OS  |  Latest  |
 | Linux Mint  |  22  |
 | OpenSuse Tumbleweed  |  Latest  |
+| Debian  |  12  |
 
 Tell me if it works for you! i will update the readme!
 
