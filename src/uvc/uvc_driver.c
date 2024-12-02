@@ -19,7 +19,12 @@
 #include <linux/videodev2.h>
 #include <linux/vmalloc.h>
 #include <linux/wait.h>
+
+#if LINUX_VERSION_CODE < KERNEL_VERSION(6, 12, 0)
+#include <asm/unaligned.h>
+#else
 #include <linux/unaligned.h>
+#endif
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>
