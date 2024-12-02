@@ -1,5 +1,7 @@
 # Quant HD User Facing Driver Module for Webcam Found in Acer Laptops.
 
+## ⚠️ This driver is not required for linux kernel version 6.13 and above as the bug is fixed in kernel itself. [0408:4035](https://github.com/torvalds/linux/commit/c397e8c45d911443b4ab60084fb723edf2a5b604) [0408:4033](https://github.com/torvalds/linux/commit/c9df99302fff53b6007666136b9f43fbac7ee3d8)
+
 this module fixes camera 📷 on bunch of acer laptops 💻 like Acer Nitro 5 running linux.
 
 > Special Thanks to [@Giuliano69](https://github.com/Giuliano69) for the driver reference 🥰
